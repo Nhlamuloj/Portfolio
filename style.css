@@ -251,12 +251,17 @@ h-main{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
-    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background: #242121;
+    color: var(--text-color);
     border-radius: 50%;
-    background: var(--main-color);
-    color: var(--bg-color);
+    margin-right: 15px;
+    transition: all .7s;
+}
+
+.row i:hover{
+    box-shadow: 0 0 30px var(--main-color);
 }
 
 .row:hover{
